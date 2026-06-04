@@ -9,7 +9,7 @@ const App = () => {
   useEffect(function () {
     console.log('use effect is running...')
   }, [num])
-
+  
   return (
     <div>
       <h1>num {num}</h1>
