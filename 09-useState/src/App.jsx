@@ -64,10 +64,37 @@ export default App
 
 // export default App
 
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 
-const App = () => {
+// const App = () => {
 
+//   const [Num, setNum] = useState(0)
+
+//   function increaseNum() {
+//     setNum(Num+1)
+//   }
+//   function decreaseNum() {
+//     setNum(Num-1)
+//   }
+//   function increaseByFive () {
+//     setNum(Num+5)
+//   }
+
+//   return (
+//     <div>
+//       <h1>{Num}</h1>
+//       <button onClick={increaseNum}>increase</button>
+//       <button onClick={decreaseNum}>decrease</button>
+//       <button onClick={increaseByFive}>increase by 5</button>
+//     </div>
+//   )
+// }
+
+// export default App
+
+import React, { useState } from "react";
+
+const App = () =>{
   const [Num, setNum] = useState(0)
 
   function increaseNum() {
@@ -76,18 +103,17 @@ const App = () => {
   function decreaseNum() {
     setNum(Num-1)
   }
-  function increaseByFive () {
+  function increaseNumByFive () {
     setNum(Num+5)
   }
 
   return (
     <div>
-      <h1>{Num}</h1>
-      <button onClick={increaseNum}>increase</button>
-      <button onClick={decreaseNum}>decrease</button>
-      <button onClick={increaseByFive}>increase by 5</button>
+    <h1>{Num}</h1>
+    <button onClick={increaseNum}>increase by 1</button>
+    <button onClick={decreaseNum}>decrease by 1</button>
+    <button onClick={increaseNumByFive}>increase by 5</button>
     </div>
   )
 }
-
 export default App
