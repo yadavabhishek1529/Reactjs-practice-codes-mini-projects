@@ -82,9 +82,26 @@ const App = () => {
 
 // </section>
 
-<button className="bg-blue-500 text-white px-4 py-2 hover:bg-gray-700">
-  Hover Me
-</button>
+// <button className="bg-blue-500 text-white px-4 py-2 hover:bg-gray-700">
+//   Hover Me
+// </button> 
+
+// <p class="text-black hover:text-red-500">
+//   Hover Over Me
+// </p> 
+
+// <div class="hover:scale-110">
+//   Card
+// </div>
+
+// <button class="bg-blue-500 hover:bg-green-500 transition duration-1000">
+//   Button
+// </button> 
+
+<img
+  class="hover:rotate-12 transition duration-300"
+  src="https://img.magnific.com/free-photo/smiling-young-male-professional-standing-with-arms-crossed-while-making-eye-contact-against-isolated-background_662251-838.jpg?semt=ais_hybrid&w=740&q=80"
+/>
   )
 }
 
