@@ -50,37 +50,41 @@ const App = () => {
 
 // </nav>
 
-<section className="p-8">
+// <section className="p-8">
 
-  <h1 className="text-3xl font-bold mb-6">
-    Featured Products
-  </h1>
+//   <h1 className="text-3xl font-bold mb-6">
+//     Featured Products
+//   </h1>
 
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+//   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 
-    <div className="shadow p-4 rounded-lg">
-      <h2 className="font-semibold">Product 1</h2>
-      <p>$99</p>
-    </div>
+//     <div className="shadow p-4 rounded-lg">
+//       <h2 className="font-semibold">Product 1</h2>
+//       <p>$99</p>
+//     </div>
 
-    <div className="shadow p-4 rounded-lg">
-      <h2 className="font-semibold">Product 2</h2>
-      <p>$149</p>
-    </div>
+//     <div className="shadow p-4 rounded-lg">
+//       <h2 className="font-semibold">Product 2</h2>
+//       <p>$149</p>
+//     </div>
 
-    <div className="shadow p-4 rounded-lg">
-      <h2 className="font-semibold">Product 3</h2>
-      <p>$199</p>
-    </div>
+//     <div className="shadow p-4 rounded-lg">
+//       <h2 className="font-semibold">Product 3</h2>
+//       <p>$199</p>
+//     </div>
 
-    <div className="shadow p-4 rounded-lg">
-      <h2 className="font-semibold">Product 4</h2>
-      <p>$249</p>
-    </div>
+//     <div className="shadow p-4 rounded-lg">
+//       <h2 className="font-semibold">Product 4</h2>
+//       <p>$249</p>
+//     </div>
 
-  </div>
+//   </div>
 
-</section>
+// </section>
+
+<button className="bg-blue-500 text-white px-4 py-2 hover:bg-gray-700">
+  Hover Me
+</button>
   )
 }
 
