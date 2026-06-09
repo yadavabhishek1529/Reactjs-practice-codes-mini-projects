@@ -107,15 +107,42 @@ const App = () => {
 //   Card
 // </div> 
 
-<div className="bg-white p-5 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+// <div className="bg-white p-5 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
 
-  <h2 className="font-bold text-xl">
-    Product
-  </h2>
+//   <h2 className="font-bold text-xl">
+//     Product
+//   </h2>
 
-  <p>$99</p>
+//   <p>$99</p>
+
+// </div>
+
+// <div class="relative w-64 h-64 bg-gray-200">
+
+//   <div class="absolute top-0 right-0 bg-red-500 text-white p-2">
+//     New
+//   </div>
+
+// </div>
+// <button
+//   className="fixed bottom-5 right-5 bg-blue-500 text-white p-4 rounded-full"
+// >
+//   ↑
+// </button> 
+
+<div class="relative">
+
+  <div class="absolute z-10">
+    Box 1
+  </div>
+
+  <div class="absolute z-20">
+    Box 2
+  </div>
 
 </div>
+
+
   )
 }
 
