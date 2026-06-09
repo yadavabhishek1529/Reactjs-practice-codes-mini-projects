@@ -98,10 +98,24 @@ const App = () => {
 //   Button
 // </button> 
 
-<img
-  class="hover:rotate-12 transition duration-300"
-  src="https://img.magnific.com/free-photo/smiling-young-male-professional-standing-with-arms-crossed-while-making-eye-contact-against-isolated-background_662251-838.jpg?semt=ais_hybrid&w=740&q=80"
-/>
+// <img
+//   class="hover:rotate-12 transition duration-300"
+//   src="https://img.magnific.com/free-photo/smiling-young-male-professional-standing-with-arms-crossed-while-making-eye-contact-against-isolated-background_662251-838.jpg?semt=ais_hybrid&w=740&q=80"
+// /> 
+
+// <div class="hover:-translate-y-2 transition">
+//   Card
+// </div> 
+
+<div className="bg-white p-5 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+
+  <h2 className="font-bold text-xl">
+    Product
+  </h2>
+
+  <p>$99</p>
+
+</div>
   )
 }
 
