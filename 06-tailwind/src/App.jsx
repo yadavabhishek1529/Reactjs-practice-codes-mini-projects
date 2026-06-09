@@ -130,19 +130,286 @@ const App = () => {
 //   ↑
 // </button> 
 
-<div class="relative">
+// <div class="relative">
 
-  <div class="absolute z-10">
-    Box 1
-  </div>
+//   <div class="absolute z-10">
+//     Box 1
+//   </div>
 
-  <div class="absolute z-20">
-    Box 2
+//   <div class="absolute z-20">
+//     Box 2
+//   </div>
+
+// </div>
+
+// <nav className="sticky top-0 z-50 bg-white shadow">
+
+//   <div className="flex justify-between items-center p-4">
+
+//     <h1 className="font-bold text-xl">
+//       MyStore
+//     </h1>
+
+//     <ul className="flex gap-6">
+//       <li>Home</li>
+//       <li>Products</li>
+//       <li>Contact</li>
+//     </ul>
+
+//   </div>
+
+// </nav>
+
+// <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 hover:-translate-y-2 transition-all duration-300">
+
+//   <h2 className="font-bold text-xl">
+//     Tailwind CSS
+//   </h2>
+
+//   <p className="mt-2 text-gray-500">
+//     Learn modern web development.
+//   </p>
+
+// </div>
+// <input
+//   class="border p-3 rounded-lg focus:outline-none focus:border-blue-500"
+// />
+
+
+// <input
+//   class="border p-3 rounded-lg focus:ring-2 focus:ring-blue-500"
+// />
+
+// <textarea
+//   class="w-full border p-3 rounded-lg"
+//   rows="4"
+// ></textarea>
+
+// <select class="border p-3 rounded-lg">
+
+//   <option>India</option>
+
+//   <option>USA</option>
+
+//   <option>Canada</option>
+
+// </select> 
+
+//Checkbox
+// <div class="flex items-center gap-2">
+
+//   <input
+//     type="checkbox"
+//     class="w-4 h-4"
+//   />
+
+//   <label>
+//     Accept Terms
+//   </label>
+// </div>
+
+//Radio Buttons
+// <div class="flex gap-4">
+
+//   <label>
+//     <input type="radio" name="gender" />
+//       Male
+//   </label>
+
+//   <label>
+//     <input type="radio" name="gender" />
+//       Female
+//   </label>
+
+// </div>
+
+//Login form 
+// <div class="max-w-md mx-auto mt-10 p-6 shadow-lg rounded-xl">
+
+//   <h2 class="text-2xl font-bold mb-5">
+//     Login
+//   </h2>
+
+//   <input
+//     type="email"
+//     placeholder="Email"
+//     class="w-full border p-3 rounded-lg mb-4"
+//   />
+
+//   <input
+//     type="password"
+//     placeholder="Password"
+//     class="w-full border p-3 rounded-lg mb-4"
+//   />
+
+//   <button
+//     class="w-full bg-blue-500 text-white p-3 rounded-lg"
+//   >
+//     Login
+//   </button>
+
+// </div> 
+
+//Building forms with flex
+// <div class="flex gap-4">
+
+//   <input
+//     type="text"
+//     placeholder="First Name"
+//     class="w-1/2 border p-3 rounded-lg"
+//   />
+
+//   <input
+//     type="text"
+//     placeholder="Last Name"
+//     class="w-1/2 border p-3 rounded-lg"
+//   />
+
+// </div>
+
+//Building forms with grid
+// <div class="grid grid-cols-2 gap-4">
+
+//   <input
+//     class="border p-3 rounded-lg"
+//     placeholder="First Name"
+//   />
+
+//   <input
+//     class="border p-3 rounded-lg"
+//     placeholder="Last Name"
+//   />
+// </div> 
+
+//Dark-Mode
+// <div class="bg-white dark:bg-black">
+
+//   <h1 class="text-black dark:text-white">
+//     Hello
+//   </h1>
+
+// </div>
+//Another Example
+// <button
+//   class="bg-blue-500 dark:bg-blue-700 text-white"
+// >
+//   Button
+// </button>
+
+//Reusable-components : In react you'll create reusable components.
+  // <button
+  //     className="bg-blue-500 text-white px-4 py-2 rounded-lg"
+  //   >
+  //     {text}
+  //   </button>
+
+
+//Hero Section Common Interview Project
+// <section
+//   class="flex flex-col items-center justify-center h-screen"
+// >
+
+//   <h1
+//     class="text-5xl font-bold"
+//   >
+//     Learn Tailwind CSS
+//   </h1>
+
+//   <p
+//     class="mt-4 text-gray-500"
+//   >
+//     Build modern websites faster.
+//   </p>
+
+//   <button
+//     class="mt-6 bg-blue-500 text-white px-6 py-3 rounded-lg"
+//   >
+//     Get Started
+//   </button>
+
+// </section> 
+
+//Footer section
+// <footer
+//   class="bg-gray-900 text-white p-8"
+// >
+
+//   <div
+//     class="flex justify-between"
+//   >
+
+//     <div>
+//       Logo
+//     </div>
+
+//     <div>
+//       Contact
+//     </div>
+
+//   </div>
+
+// </footer> 
+
+//Dashboard sidebar
+// <div class="flex">
+
+//   <aside
+//     class="w-64 h-screen bg-gray-800 text-white p-5"
+//   >
+
+//     <ul class="space-y-4">
+
+//       <li>Dashboard</li>
+
+//       <li>Users</li>
+
+//       <li>Settings</li>
+
+//     </ul>
+
+//   </aside>
+
+//   <main class="flex-1 p-5">
+
+//     Dashboard Content
+
+//   </main>
+
+// </div>
+
+//Mini-project registration form
+<div class="max-w-md mx-auto p-6 shadow-lg rounded-xl">
+
+  <h2 class="text-2xl font-bold mb-4">
+    Register
+  </h2>
+
+  <div class="space-y-4">
+
+    <input
+      placeholder="Name"
+      class="w-full border p-3 rounded-lg"
+    />
+
+    <input
+      placeholder="Email"
+      class="w-full border p-3 rounded-lg"
+    />
+
+    <input
+      placeholder="Password"
+      class="w-full border p-3 rounded-lg"
+    />
+
+    <button
+      class="w-full bg-blue-500 text-white p-3 rounded-lg"
+    >
+      Register
+    </button>
+
   </div>
 
 </div>
-
-
   )
 }
 
