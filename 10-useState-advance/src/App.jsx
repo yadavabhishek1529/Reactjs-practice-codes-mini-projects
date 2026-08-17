@@ -13,7 +13,6 @@ const App = () => {
     console.log(num.user,num.age)
   }
 
-
   return (
     <div>
       <h1>{num.user},{num.age}</h1>

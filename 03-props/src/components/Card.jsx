@@ -22,7 +22,7 @@
 //        <img src= {props.img} alt='' />
 //        <h1>{props.user}, {props.age}</h1>
 //        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quod aliquid inventore illo suscipit .</p>
-//        <button>view pro</button>
+//        <button>view profile</button>
 //     </div>
 //   )
 // }

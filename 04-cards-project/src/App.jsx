@@ -118,3 +118,13 @@ const App = () => {
 }
 
 export default App
+
+//The 5 concepts you should understand from this code
+/*
+Concept	Meaning
+jobOpenings	-> Array containing job data
+{ ... }	-> Individual job object
+.map() ->	Loops through every job
+elem ->	Current job object
+props ->	Sends job data from App → Card
+*/

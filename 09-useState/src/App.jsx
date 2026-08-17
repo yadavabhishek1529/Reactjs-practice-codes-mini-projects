@@ -117,3 +117,28 @@ const App = () =>{
   )
 }
 export default App
+
+/* import React from 'react'
+
+ const App = () => {
+
+  const [id, setid] = useState(1)
+  const [name, setname] = useState("Abhishek")
+  const [users, setusers] = useState([40,50,60])
+
+  const changinValues = () =>{
+    setid(2)
+    setname("Anmol")
+    setusers(10,20,30)
+  }
+  return (
+    <div>
+      <h1>Hello {id}, {name}</h1>
+      <p>get users{users}</p>
+      <button onChange={changinValues}>click me!</button>
+
+    </div>
+  )
+}
+
+export default App */
